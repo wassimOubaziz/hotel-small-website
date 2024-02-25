@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgba(32, 31, 31, 0.911);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .threeicons ul {
+    list-style: none;
+    display: flex;
+}
+
+header h1 a {
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 5px;
+}
+
+header a {
+    color: white;
+    padding: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14.5px;
+}
+
+header .a3 {
+    margin-right: 37px;
+}
+
+header a:hover {
+    background-color: rgba(105, 104, 104, 0.514);
+    color: burlywood;
+}
+
+header .a3 {
+    padding: 17px;
+    color: burlywood;
+    background-color: rgba(105, 104, 104, 0.514);
+}
+
+.body {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.body h1 span {
+    color: rgb(248, 172, 72);
+}
+
+.body h1 {
+    padding-bottom: 20px;
+}
+
+.body p {
+    padding-bottom: 18px;
+    font-size: 14.5px;
+}
+
+.body input {
+    margin: 5px 0px 15px;
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 0px 4px;
+    font-size: large;
+}
+
+textarea {
+    width: 80% !important;
+    padding: 4px 4px;
+    font-size: larger;
+    height: 140px !important;
+}
+
+form .submit {
+    padding: 8px 14px;
+    width: auto;
+    height: auto;
+    color: rgba(255, 255, 255, 0.788);
+    background-color: rgba(32, 31, 31, 0.938);
+    margin-top: 15px;
+}
+
+nav {
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+
+nav .theman,
+nav .theman2 {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(46, 45, 45, 0.699);
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.theman h5,
+.theman2 h5 {
+    margin-bottom: 22.5px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.theman p,
+.theman2 p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

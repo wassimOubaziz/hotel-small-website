@@ -1,0 +1,193 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: rgba(32, 31, 31, 0.911);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .threeicons ul {
+  list-style: none;
+  display: flex;
+}
+
+header h1 a {
+  margin-left: 35px;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 5px;
+}
+
+header a {
+  color: white;
+  padding: 17px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 14.5px;
+}
+
+header .a3 {
+  margin-right: 37px;
+}
+
+header a:hover {
+  background-color: rgba(105, 104, 104, 0.514);
+  color: burlywood;
+}
+
+header .a1 {
+  padding: 17px;
+  color: burlywood;
+  background-color: rgba(105, 104, 104, 0.514);
+}
+
+.body1 {
+  background-image: url(./images/showcase.jpg);
+  width: 100%;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body1 .line h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.body1 .line h1 span {
+  color: rgb(233, 176, 103);
+}
+
+.body1 .paragraph,
+.body2 .paragraph2 {
+  padding-bottom: 18px;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.body1 button {
+  border: none;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 10px 0px;
+  background-color: rgba(32, 31, 31, 0.911);
+  cursor: pointer;
+}
+
+.body1 button a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.863);
+  padding: 10px;
+}
+
+.body1 button:hover,
+.body2 button:hover {
+  background-color: burlywood;
+}
+
+.body1 button a:hover,
+.body2 button a:hover {
+  color: black;
+}
+
+.body2 {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+.body2 .image1 {
+  width: 50%;
+  height: 260px;
+  background-image: url(./images/photo-1.jpg);
+}
+
+.body2 .all1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.body2 .all1 .line2 h3 span {
+  color: burlywood;
+}
+
+.body2 .all1 .line2 h3 {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.body2 button {
+  padding: 8px 0px;
+  cursor: pointer;
+}
+
+.body2 button a {
+  padding: 8px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+nav {
+  width: 100%;
+  height: 220px;
+  display: flex;
+}
+
+nav .theman,
+nav .theman2 {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.theman h5,
+.theman2 h5 {
+  margin-bottom: 22.5px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.theman p,
+.theman2 p {
+  margin-bottom: 50px;
+}
+
+nav .theman2 {
+  background-color: rgb(248, 198, 133);
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  color: rgba(255, 255, 255, 0.877);
+  background-color: rgb(46, 45, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
